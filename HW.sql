@@ -70,4 +70,4 @@ SELECT first_name,
        MAX(age) AS Max_возраст
 FROM employee
 GROUP BY first_name HAVING COUNT(*)>1
-ORDER BY MAX(age)
+ORDER BY MAX(age);
